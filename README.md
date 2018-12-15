@@ -15,6 +15,7 @@ pip install networkx
 
 ```
 source ./bin/activate
+jupyter notebook
 ```
 
 leave virtual env using the following command
