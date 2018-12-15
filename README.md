@@ -1,6 +1,6 @@
 # Network Analysis - Pretty Good Privacy (PGP) - Analysis of the Web of Trust
 
-## Dev Setup
+## Dev Setup
 
 Setup uses [Virtualenv](https://virtualenv.pypa.io/en/stable/).
 
