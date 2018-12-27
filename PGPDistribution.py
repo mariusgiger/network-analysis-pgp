@@ -10,9 +10,10 @@ from scipy.special import factorial
 from scipy import optimize
 from scipy import stats
 from array import array
+import powerlaw
 
 # Define function for calculating a power law
-powerlaw = lambda x, amp, index: amp * (x**index)
+#powerlaw = lambda x, amp, index: amp * (x**index)
 # define our (line) fitting function
 fitfunc = lambda p, x: p[0] + p[1] * x
 errfunc = lambda p, x, y, err: (y - fitfunc(p, x)) / err
@@ -56,6 +57,8 @@ def plot_degree_histogram(G):
     plt.xlabel('Connections (normalized)')
     plt.ylabel('Frequency')
     plt.show()
+
+
 
 def plot_degree_histogram_std(G): 
     degree_sequence = sorted([degree for node, degree in G.degree()], reverse=True) 
@@ -196,4 +199,5 @@ for n in A:
     G.add_edge(n[0], n[1])
 
 #kolmogorov_smirnov_fit(G)
-plot_degree_histogram_std(G)
+#plot_degree_histogram_std(G)
+use_powerlaw_pkg(G)
