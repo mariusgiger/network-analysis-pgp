@@ -4,7 +4,7 @@
 
 Setup uses [Virtualenv](https://virtualenv.pypa.io/en/stable/).
 
-```
+```bash
 pip3 install virtualenv
 virtualenv -p python3 .
 source ./bin/activate
@@ -13,14 +13,14 @@ pip install networkx
 
 ## Work
 
-```
+```bash
 source ./bin/activate
 jupyter notebook
 ```
 
 leave virtual env using the following command
 
-```
+```bash
 deactivate
 ```
 
