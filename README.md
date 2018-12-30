@@ -24,7 +24,7 @@ leave virtual env using the following command
 deactivate
 ```
 
-## Links
+## Links
 
 - <https://networkx.github.io/>
 - <https://networkx.github.io/documentation/networkx-1.10/reference/generated/networkx.drawing.nx_pylab.draw_networkx.html#networkx.drawing.nx_pylab.draw_networkx>
